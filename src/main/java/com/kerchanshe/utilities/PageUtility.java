@@ -32,10 +32,20 @@ public class PageUtility {
 	 * @param element
 	 * @param value
 	 */
-	public static void element_SendKeys(WebElement element, String value) {
+	public static void element_SendKeys(WebElement element, String value) 
+	{
+		element.sendKeys(value);;
+	}
+	
+	/**
+	 * method to overwrite the values in the element
+	 * @param element
+	 * @param value
+	 */
+	public static void element_OverWrite(WebElement element, String value) {
+		element.clear();
 		element.sendKeys(value);
 	}
-
 	/**
 	 * method to select element by index
 	 * @param index

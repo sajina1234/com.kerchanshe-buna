@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kerchanshe.tests.DesignationMastersTest">
+      <class name="com.kerchanshe.tests.CityMastersTest">
         <methods>
-          <include name="verifyViewDesignationFunctionality"/>
+          <include name="verifyViewFunctionality"/>
           <include name="launchBrowser"/>
           <include name="launchBrowser"/>
           <include name="terminateBrowser"/>
+          <include name="verifyEditFunctionality"/>
         </methods>
-      </class> <!-- com.kerchanshe.tests.DesignationMastersTest -->
+      </class> <!-- com.kerchanshe.tests.CityMastersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

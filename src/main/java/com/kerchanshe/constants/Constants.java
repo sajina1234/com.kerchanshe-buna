@@ -25,4 +25,9 @@ public static final String EXPECTED_DESIGNATION_SEARCH_RESULT = "test lead";
 public static final String EXPECTED_DESIGNATION_DELETE_SEARCH_RESULT = "No matching records found";
 public static final String EXPECTED_DESIGNATION_EDIT_PAGE_TITLE="Edit Designation";
 public static final String EXPECTED_DESIGNATION_VIEW_PAGE_TITLE="View Designation";
+/*CityMastersPage*/
+public static final String EXPECTED_CITY_SEARCH_RESULT = "Japan";
+public static final String EXPECTED_CITY_DELETE_SEARCH_RESULT = "No matching records found";
+public static final String EXPECTED_CITY_EDIT_PAGE_TITLE="Edit City and SubCity";
+public static final String EXPECTED_CITY_VIEW_PAGE_TITLE="View City and SubCity";
 }

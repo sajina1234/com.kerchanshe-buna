@@ -1,10 +1,8 @@
 package com.kerchanshe.tests;
 
 import static org.testng.Assert.assertEquals;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.kerchanshe.base.Base;
 import com.kerchanshe.constants.Constants;
 import com.kerchanshe.pages.CompanyMastersPage;
